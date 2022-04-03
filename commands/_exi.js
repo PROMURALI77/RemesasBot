@@ -6,7 +6,7 @@
   folder: 
   answer: 
   keyboard: 
-  aliases: 🚫exit
+  aliases: ⬅️ Volver
 CMD*/
 
 var stat = Bot.getProperty(""+user.telegramid+"")
