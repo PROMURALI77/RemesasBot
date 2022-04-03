@@ -42,5 +42,5 @@ if (reflist.length > 0) {
 
 var key = [[{title:"↗️ Compartir",url:"https://t.me/share/url?url="+bot}]]
 
-Bot.sendInlineKeyboard(key,"*👥 Sistema Referidos*" + "\n\n" + "\n*🥇 Nivel°1 - 1%*\n\n*👥 Estadísticas Referidos*" + "\n\n*1° Nivel:* " +reflist.length+ " Usuarios" + "\n\n*👥 Depósitos Referidos:* "  + "\n" +TRX.toFixed(8) + " *USD*" +
+Bot.sendInlineKeyboard(key,"*👥 Sistema Referidos*" + "\n\n" + "*🥇 Nivel°1 - 1%*\n\n*👥 Estadísticas Referidos*" + "\n\n*1° Nivel:* " +reflist.length+ " Usuarios" + "\n\n*👥 Depósitos Referidos:* "  + "\n" +TRX.toFixed(8) + " *USD*" +
  "\n\n*♾ Ganancias:* " + "\n" +refcom.value().toFixed(8) + " *USD*\n\n*👨‍👨‍👦‍👦 Enlace para Invitar:* \n" +"["+bot+"]")
