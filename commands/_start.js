@@ -32,7 +32,7 @@ var tota = Libs.ResourcesLib.anotherChatRes("tota", "global")
   tota.add(1)
 var balance = Libs.ResourcesLib.userRes("balance")
 balance.add(0.01)
-Bot.sendMessage("*💡Welcome Bonus 0.01 TRX*")
+Bot.sendMessage("*💡Bono Bienvenida 0.01 USD*")
 }
 User.setProperty("welco", user.telegramid, "text")
 
@@ -43,7 +43,7 @@ let res = Libs.ResourcesLib.anotherUserRes("balance", refUser.telegramid);
   res.add(0.0);  // add 0.05000 bonus for friend
 var refchatid= refUser.chatId;
 var inf = "[" + user.first_name + "]" + "(" + "tg://user?id=" + user.telegramid + ")"
-Bot.sendMessageToChatWithId(refUser.chatId,"🎯 You have a new Referral: "+inf);
+Bot.sendMessageToChatWithId(refUser.chatId,"➕ Nuevo Referido: "+inf);
 }
 
 Libs.ReferralLib.currentUser.track({
