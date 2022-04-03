@@ -40,9 +40,7 @@ if (reflist.length > 0) {
   msg = "0"
 }
 
-var key = [[{title:"↗️ Share",url:"https://t.me/share/url?url="+bot}]]
+var key = [[{title:"↗️ Compartir",url:"https://t.me/share/url?url="+bot}]]
 
-Bot.sendMessage("*👥 Refferrals System*" + "\n\n*1 Level:*" + "\n*🥇 Level°1 - 5%*")
-Bot.sendMessage("*👨‍👨‍👦‍👦 Refferral direct bot url:* " +"["+bot+"]")
-Bot.sendInlineKeyboard(key,"*👥 Refferral Statistics*" + "\n\n*1° Level:* " +reflist.length+ " users" + "\n\n*👥 Refferral Deposits:* "  + "\n" +TRX.toFixed(8) + " *TRX*" +
- "\n*♾ Earnings:* " + "\n" +refcom.value().toFixed(8) + " *TRX*")
+Bot.sendInlineKeyboard(key,"*👥 Sistema Referidos*" + "\n\n*1 Nivel:*" + "\n*🥇 Nivel°1 - 1%*\n\n*👨‍👨‍👦‍👦 Enlace para Invitar:* " +"["+bot+"]\n\n*👥 Estadísticas Referidos*" + "\n\n*1° Nivel:* " +reflist.length+ " Usuarios" + "\n\n*👥 Depósitos Referidos:* "  + "\n" +TRX.toFixed(8) + " *USD*" +
+ "\n*♾ Ganancias:* " + "\n" +refcom.value().toFixed(8) + " *USD*")
