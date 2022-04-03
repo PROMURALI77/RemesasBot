@@ -11,4 +11,4 @@ CMD*/
 
 var key = [[{title:"TRX",command:"/depot"},{title:"USDT-TRC20",command:"/depot"}],[{title:"BTC",command:"/depob"}],[{title:"LTC",command:"/depol"},{title:"DOGE",command:"/depod"}]]
 
-Bot.sendInlineKeyboard(key,"➕ Welcome! Here you can start a new investment!\n\n💵 We offer only one investment plan, I hope you like it!\n\n1️⃣* From 1 TRX to 1000 TRX\n 120% daily for 1 day\n 120.00% every 24 hours\n Paid every day*")
+Bot.sendInlineKeyboard(key,"✅ Todo Depósito es convertido a USD\n\nMínimo de Depósito: 5 USD\nMáximo de Depósito: 500 000 USD")
