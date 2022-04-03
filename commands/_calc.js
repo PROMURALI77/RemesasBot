@@ -12,8 +12,8 @@ Calculate your expected accural after 24 hours!
 
 `Send the amount of TRX you want to invest`
   ANSWER
-  keyboard: 🚫Exit
-  aliases: 🖥 Calculador
+  keyboard: ⬅️ Volver
+  aliases: 🖥 Calcular
 CMD*/
 
 var stat = Bot.getProperty(""+user.telegramid+"")
