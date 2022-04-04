@@ -20,10 +20,6 @@ message_id : message_id
 })
 
 }
-var data = JSON.parse(content)
-
-let price = data.ticker.price
-let x = price*1
 var stat = Bot.getProperty(""+user.telegramid+"")
 if (stat=="ban"){
 Bot.sendMessage("*❌ You are banned*");
