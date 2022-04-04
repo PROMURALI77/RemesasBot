@@ -6,10 +6,11 @@
   folder: 
 
   <<ANSWER
-☎️ *You are now in direct contact with the bot Administrator*
-`Send me your complains and you will receive reply from the Administrator`
+ 👨‍💻 *Ahora estas en contacto directo con el Administrador*
+ 
+*Escriba su mensaje y sera atendido en un plazo de 2 a 24 horas*
   ANSWER
-  keyboard: 🚫Exit
+  keyboard: ⬅️ Volver
   aliases: 📬 Soporte
 CMD*/
 
@@ -28,7 +29,7 @@ if (!admin_chat) {
 let msg = message
 if (msg.length < 5) {
   Bot.sendMessage(
-    "*⚠️ Please, send a longer message!*\n_Try to explain better what you need, as much as you can in a single message!_"
+    "*⚠️ Por favor, envíe un mensaje más largo!*\n_Para explicar todo lo que necesita, todo lo que pueda en un solo mensaje!_"
   )
 } else {
   let user_link = Libs.commonLib.getLinkFor(user)
@@ -37,7 +38,7 @@ if (msg.length < 5) {
   var b = [
     [
       {
-        title: "Reply to user " + user.first_name,
+        title: "Responder al usuario " + user.first_name,
         command: "/reply" + user.telegramid
       }
     ]
@@ -49,7 +50,7 @@ if (msg.length < 5) {
     "📩 New Support Message\nFrom User: " + inf + "\nMessage: " + msg
   )
   Bot.sendMessage(
-    "*Message sent to the administrator:*" + "\n" + message + "\n"
+    "*Mensaje enviado al administrador:*" + "\n" + message + "\n"
   )
 }
 
