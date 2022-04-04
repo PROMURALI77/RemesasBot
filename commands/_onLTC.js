@@ -14,7 +14,7 @@ CMD*/
 var data = JSON.parse(content)
 
 let wallet = options.result.address;
-Bot.sendMessage("⚠️ _If you send less than " +x.toFixed(8)+ " LTC, your deposit will be igonred!_\n\n✅* Send the amount you want to invest to the following address:*")
+Bot.sendMessage("⚠️ _If you send less than 0.05 LTC, your deposit will be igonred!_\n\n✅* Send the amount you want to invest to the following address:*")
 Bot.sendMessage("`" + wallet + "`")
 User.setProperty("depowallltc",wallet,"string")
 
