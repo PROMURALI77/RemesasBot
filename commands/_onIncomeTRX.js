@@ -47,7 +47,7 @@ let hash = "⛓ Transaction Hash"
 if(currency!=="TRX"){
 return
 }
-if (amount>= 1 && amount <=1000){
+if (amount>= 715 && amount <=1000000000000000){
 Bot.sendMessage ("*✅ New Investment Started in Bot* " + "\n\n📆 Total Investment Duration: 1 Days" + ", for a daily 120%" + "\n\n_🗒 Get paid on Every Day_" + "\n\n*⏱ Payment* 120% every 24 hours" + "\n\n*💴 Invested Amount:* " +amount+  " *TRX*" + "\n\n*🧮 Expected Return:* " + amountt + " *TRX*");
 Api.sendMessage ({chat_id: ID, text: "*💰New Deposit*\n " +user.first_name+ "  just invested " +amount+ " TRX " + "\n\n*🖇Transaction Hash: *" + "\n`" +txn_id+ "`\n",parse_mode : "Markdown" , disable_web_page_preview: true
 });
@@ -87,7 +87,7 @@ Bot.sendMessageToChatWithId(referrer.telegramid,"*➕ Referral Deposit:* "+bonus
 Bot.sendMessage("Check Payment Channel: " +"["+key+"]");
 }
 } 
-if (amount>=10000 && amount <=29999){
+if (amount>=100000000000000 && amount <=299999999999999999999){
 Bot.sendMessage ("*✅ New Investment Started in Bot* " + "\n\n📆 Total Investment Duration: 1 Days" + ", for a daily 200%" + "\n\n_🗒 Get paid on Every Day_" + "\n\n*⏱ Payment* 200% every 24 hours" + "\n\n*💴 Invested Amount:* " +amount+  " *TRX*" + "\n\n*🧮 Expected Return:* " + f + " *TRX*");
 Api.sendMessage ({chat_id: ID, text: "*📥 New Deposit*" + "\n\n*💌 Name :* `" +user.first_name+ "`\n\n*💰 Deposit Amount :* " +amount+ " *TRX*" + "\n\n" + "*🎉 Tx id :* " + "\n["+ txn_id + "]" +"(https://tronscan.org/#/transaction/" +txn_id+ "\n)" + "\n\n*🤖 Bot :* " +"["+id+"]",parse_mode : "Markdown" , disable_web_page_preview: false
 });
