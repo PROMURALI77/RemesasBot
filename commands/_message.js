@@ -8,7 +8,7 @@
   <<ANSWER
  👨‍💻 *Ahora estas en contacto directo con el Administrador*
  
-*Escriba su mensaje y sera atendido en un plazo de 2 a 24 horas*
+*Escriba su mensaje y será atendido en un plazo de 2 a 24 horas*
   ANSWER
   keyboard: ⬅️ Volver
   aliases: 📬 Soporte
