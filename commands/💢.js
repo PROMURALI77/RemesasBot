@@ -26,6 +26,6 @@ let refcom = Libs.ResourcesLib.userRes("refcom");
 let withdraw = Libs.ResourcesLib.userRes("withdraw");
 var time = Libs.DateTimeFormat.format(new Date(),"dd/m/yyyy h:M:s T")+"M"
 
-Bot.sendKeyboard("🏦 Depósitos,➖ Retiros,\n⬅️ Volver","*👤 Saldo de la cuenta:  *\n\n*💳 Saldo Depositado: * \n" +deposit.value().toFixed(8) + " USD\n\n*👥 Ganancias Referidos:*\n" +refcom.value().toFixed(8) +" USD\n\n*💸 Total retirado:*\n" +withdraw.value().toFixed(8) + " USD")
+Bot.sendKeyboard("⬅️ Volver","*👤 Saldo de la cuenta:  *\n\n*💳 Saldo Depositado: * \n" +deposit.value().toFixed(8) + " USD\n\n*👥 Ganancias Referidos:*\n" +refcom.value().toFixed(8) +" USD\n\n*💸 Total retirado:*\n" +withdraw.value().toFixed(8) + " USD")
 
 }
