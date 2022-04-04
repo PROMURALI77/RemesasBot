@@ -15,7 +15,7 @@ let key = Bot.getProperty("Prkey")
 let key2 = Bot.getProperty("Pukey")
 Libs.CoinPayments.setPrivateKey(""+key+"");
 Libs.CoinPayments.setPublicKey(""+key2+"");
-Libs.CoinPayments.setBBApiKey('druu8WFR87CGCDo0ZKCs9bnrkOQ4LkXoPZ75vkl7');
+Libs.CoinPayments.setBBApiKey('CrdhYdrOsSYh_Bh7qgFJ_fJt8He_QTYVxs5ova-W');
 Bot.sendMessage("OK")
 }else{
 return
