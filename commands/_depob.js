@@ -20,10 +20,6 @@ message_id : message_id
 })
 
 }
-var data = JSON.parse(content)
-
-let price = data.ticker.price
-let x = price*1
 var stat = Bot.getProperty(""+user.telegramid+"")
 if (stat=="ban"){
 Bot.sendMessage("*❌ You are banned*");
@@ -32,9 +28,9 @@ let depo = User.getProperty("depowallbtc")
 let depot = "➕ *Welcome! Here you can start a new investment!*\n\n💵 We offer a single Investment plan, able to offer you the best profit!\n\n➡️ Our plan starts from 10 USD\n\n*⏱ Profit will be credited* 10% every 24,for 15 days: 10% daily!\n📆 Paid on Every Day"
 
 if(depo){
-Bot.sendMessage("⚠️ _If you send less than " +x.toFixed(8)+ " BTC, your deposit will be ignored!_\n\n✅ *Send the amount you want to invest to the following address:*")
+Bot.sendMessage("⚠️ _El mínimo de depósito es de 0.0011 BTC, si usted envía menos se tomará como una donación!_\n\n✅ *Envía el monto a depositar a la siguiente wallet:*")
 Bot.sendMessage("`"+depo+"`")}else{
-Bot.sendMessage("*✋ Hold on... generating your deposit address*")
+Bot.sendMessage("*✋ Espere... generando wallet de depósito*")
 
 Libs.CoinPayments.createPermanentWallet({
   currency: "BTC",
