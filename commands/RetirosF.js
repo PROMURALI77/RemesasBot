@@ -6,7 +6,7 @@
   folder: 
   answer: 
   keyboard: 
-  aliases: ➖ Retirar
+  aliases: ⬆️ Retirar
 CMD*/
 let balance = Libs.ResourcesLib.userRes("balance");
 let ress = Libs.ResourcesLib.userRes("ress")
