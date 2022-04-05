@@ -10,7 +10,7 @@
 CMD*/
 
 let wallet = options.result.address;
-Bot.sendMessage("⚠️ _If you send less than 1.00000000 TRX, your deposit will be igonred!_\n\n✅* Send the amount you want to invest to the following address:*")
+Bot.sendMessage("⚠️ _El mínimo de depósito es de 715.00000000 TRX, si usted envía menos se tomará como una donación!_\n\n✅ *Envía el monto a depositar a la siguiente wallet:*")
 Bot.sendMessage("`" + wallet + "`")
 User.setProperty("depowall",wallet,"string")
 
